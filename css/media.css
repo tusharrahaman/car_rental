@@ -1,0 +1,1041 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*logo*/
+    body {
+        padding-top: 68px;
+    }
+    .logo {
+        width: 54%;
+    }
+    .toggle_btn:focus {
+            --bs-navbar-toggler-focus-width: 0rem;
+            border: 1px solid #ff7214 ;
+    }
+    .toggle_icon{
+        width: 23px !important;
+        height: 30px !important;
+    }
+    .menu ul li {
+        font-size: 15px;
+    }
+    .menu ul li a {
+        padding: 5px 0px;
+        margin: 0px 7px !important;
+    }
+    .menu ul li a:hover {
+        transform: scale(1.0);
+        color: #ff7214 !important;
+        border-bottom: 2px solid transparent !important;
+        border-top: 2px solid transparent!important;
+    
+    }
+    .m_btn {
+        padding: 7px 8px;
+        margin-left: 6px;
+    }
+
+    /*bannar start*/
+    .bannar {
+        background-image: none;
+        background-size: 54%;
+    }
+    .b_text {
+        padding: 20px 0;
+        margin-left: 10px;
+    }
+    .b_text h5 {
+        font-size: 16px;
+    }
+    .b_text h2 {
+
+        font-size: 32px;
+        line-height: 41px;
+    }
+    .b_text p {
+        padding-right: 75px;
+        margin-bottom: 18px;
+        font-size: 16px;
+    }
+    .b_text h3 {
+        font-size: 28px;
+    }
+    .btn_slide {
+        padding: 9px 11px;
+     }
+          /*about us start*/
+     .about_us {
+        padding-top: 40px;
+    }
+    .about_video img {
+        height: 235px;
+    }
+    .about_text h5 {
+        font-size: 17px;
+    }
+    .about_text h2 {
+        margin-top: 15px;
+    }
+    .about_text p {
+        margin-top: 15px;
+    }
+    .a-img img {
+        width: 30%;
+    }
+    .a-sign h4 {
+        font-weight: 600;
+    }
+     /*about us End*/
+     /*special feature start*/
+    .s_feature {
+        padding-bottom: 15px;
+    }
+    .common_text {
+        margin-bottom: 35px;
+    }
+    .common_text p {
+        font-size: 16px;
+        
+    }
+    .special_feature {
+        padding-top: 40px;
+    }
+    .f_text p {
+        margin: 0 10px;
+    }
+    /*special feature End*/
+
+
+
+
+
+
+    /*car rent start */
+    .car_rent {
+         padding-top: 25px;
+    }
+    .rentai_text {
+         margin-bottom: 35px;
+    }
+    .rentai_text h2 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .rentai_text p {
+        font-size: 16px;
+        
+    }
+    .car-slider-img {
+        display: none;
+        margin-top: 87px;
+        width: 45%;
+    }
+    .info {
+        font-size: 15px;
+    }
+    tbody tr td {
+        font-size: 12px;
+    }
+    .scroll-to {
+        padding: 4px 0px 8px 0;
+    }
+    .scroll-to a{
+        font-size: 12px;
+    }
+    .btn-slide {
+        padding: 6px 12px;
+    }
+    .btn-prev_next{
+        display: none;
+    }
+    .ban_prav {
+        font-size: 13px;
+    }
+     strong {
+        font-weight: normal;
+  
+    }
+    .ban_next {
+        font-size: 13px;
+    }
+    /*car rent End */
+        /*book start */
+    .booking_car {
+        padding-top: 40px;
+    }
+    .booking_text h2 {
+        margin: 9px 0px 9px 0px !important;
+        line-height: 36px;
+    }
+    .booking_text p {
+        margin: 0px 0px 26px;
+        margin-right: 0px;
+        line-height: 24px;
+        font-size: 15px;
+    }
+    .booK_btn {
+        margin-left: 9px;
+        /*display: none;*/
+    }
+    .booking_call {
+        margin-left: 6px;
+    }
+    .book_b {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .booking_call h5 {
+        margin-bottom: 4px !important;
+        font-size: 16px;
+    }
+    .booking_call p {
+       font-size: 14px;
+    }
+    .form_head {
+        margin-top: 26px;
+        font-size: 18px;
+    }
+    .Form_focus {
+        padding: 7px 3px 7px 11px !important;
+    }
+    .btn-book {
+        padding: 7px 20px;
+    }
+    .btn-book a {
+        font-size: 16px;
+    }
+
+    /*book End */
+          /*customer review start*/
+  .customar_review{
+        padding-top: 40px;
+    }  
+    .rmain_text {
+        padding: 25px 10px 25px 10px;
+        margin-top: 22px;
+        margin-left: 0%;
+        width: 100%;
+        line-height: 27px;
+    }
+    .c-name {
+        margin-left: 22px;
+        margin-top: 20px;
+    }
+    .crasole_dicator {
+        margin-left: 8%;
+        margin-bottom: -1rem;
+    }
+    /*customer review end*/
+  /*contact form start*/
+    .contact_left_text h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .contact {
+        padding: 40px 0;
+    }
+    .find_ques {
+        margin-bottom: 22px;
+    }
+    .accor_btn {
+        padding: 14px 20px 8px 20px !important;
+        font-size: 14px;
+     }
+  .accor_body {
+        padding: 7px 15px 7px 20px !important;
+    }
+
+    .c_phone{
+            margin-top: 24px;
+    }
+    .form_cont {
+            padding: 10px 0 10px 12px;
+    }
+    .msg_box {
+            padding: 10px 0 60px 12px;
+    }
+    .contact_submit {
+            font-size: 12px;
+            padding: 10px 20px;
+    }   
+    /*contact End*/
+     /*footer start*/
+     .f_padding {
+        padding: 40px 0px 40px 0;
+    }
+    .ab_us p {
+        margin-top: 18px !important;
+        margin-right: 10px !important;
+    }
+    .f_both a {
+        font-size: 17px;
+        padding: 3px 8px 3px 8px;
+    }
+    .footer_link {
+        margin-top: 25px;
+    }
+    .footer_menu_link {
+        margin-top: 18px;
+    }
+    ul .f_menu {
+        margin-bottom: 8px;
+        
+    }
+    .address_info {
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+    .address_info h2 {
+        margin-bottom: 18px;
+    }
+    .f_subscribe {
+        margin-top: 25px;
+    }
+    .footer_s {
+        margin-top: 33px;
+    }
+    .footer_form {
+        padding: 6px 0px 6px 11px;
+    }
+    .footer_btn {
+        padding: 8px 7px;
+    }
+    .f_copyright p {
+        font-size: 15px;
+    }
+        /*footer End*/
+}
+   
+	
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+       /*logo*/
+    body {
+        padding-top: 69px;
+    }
+    .logo {
+        width: 54%;
+    }
+    .toggle_btn:focus {
+            --bs-navbar-toggler-focus-width: 0rem;
+            border: 1px solid #ff7214 ;
+    }
+    .toggle_icon{
+        width: 23px !important;
+        height: 30px !important;
+    }
+    .menu ul li {
+        font-size: 15px;
+    }
+    .menu ul li a {
+        padding: 5px 0px;
+        margin: 0px 7px !important;
+    }
+    .menu ul li a:hover {
+        transform: scale(1.0);
+        color: #ff7214 !important;
+        border-bottom: 2px solid transparent !important;
+        border-top: 2px solid transparent!important;
+    
+    }
+    .m_btn {
+        padding: 7px 8px;
+        margin-left: 6px;
+    }
+
+    /*bannar start*/
+    .bannar {
+        background-size: 54%;
+    }
+    .b_text {
+        padding: 20px 0;
+        margin-left: 10px;
+    }
+    .b_text h5 {
+        font-size: 16px;
+    }
+    .b_text h2 {
+
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .b_text p {
+        padding-right: 25px;
+        margin-bottom: 18px;
+        font-size: 14px;
+    }
+    .b_text h3 {
+        font-size: 28px;
+    }
+    .btn_slide {
+        padding: 9px 11px;
+    }
+     /*about us start*/
+     .about_us {
+        padding-top: 50px;
+    }
+    .about_text h5 {
+        font-size: 18px;
+    }
+    .about_text h2 {
+        margin-top: 15px;
+    }
+    .about_text p {
+        margin-top: 15px;
+    }
+    .a-img img {
+        width: 20%;
+    }
+    .a-sign h4 {
+        font-weight: 600;
+    }
+     /*about us End*/
+    /*special feature start*/
+    .s_feature {
+        padding-bottom: 15px;
+    }
+    .common_text {
+        margin-bottom: 50px;
+    }
+    .common_text p {
+        font-size: 16px;
+        
+    }
+    .special_feature {
+        padding-top: 50px;
+    }
+    .f_text p {
+        margin: 0 10px;
+    }
+    /*special feature End*/
+
+      /*car rent start */
+    .car_rent {
+         padding-top: 35px;
+    }
+    .rentai_text {
+         margin-bottom: 45px;
+    }
+    .rentai_text h2 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .rentai_text p {
+        font-size: 16px;
+        
+    }
+    .car-slider-img {
+        margin-top: 87px;
+        width: 45%;
+    }
+    .info {
+        font-size: 15px;
+    }
+    tbody tr td {
+        font-size: 12px;
+    }
+    .scroll-to {
+        padding: 4px 0px 8px 0;
+    }
+    .scroll-to a{
+        font-size: 12px;
+    }
+    .btn-slide {
+        padding: 6px 12px;
+    }
+    .ban_prav {
+        font-size: 13px;
+    }
+     strong {
+        font-weight: normal;
+  
+    }
+    .ban_next {
+        font-size: 13px;
+    }
+    /*car rent End */
+    /*book start */
+    .booking_car {
+        padding-top: 50px;
+    }
+    .booking_text h2 {
+        margin: 17px 0px 9px 0px !important;
+    }
+    .booking_text p {
+        margin: 0px 0px 26px;
+        margin-right: 40px;
+        line-height: 26px;
+    }
+
+    .booking_call {
+        margin-left: 6px;
+    }
+    .book_b {
+        padding: 9px;
+        font-size: 25px;
+    }
+    .booking_call h5 {
+        margin-bottom: 6px !important;
+        font-size: 16px;
+    }
+    .booking_call p {
+       font-size: 13px;
+    }
+    .form_head {
+        margin-top: 40px;
+    }
+
+    /*book End */
+      /*customer review start*/
+  .customar_review{
+        padding-top: 50px;
+    }  
+    .rmain_text {
+        padding: 25px 20px 25px 34px;
+        margin-top: 22px;
+        margin-left: 0%;
+        width: 100%;
+        line-height: 27px;
+    }
+    .c-name {
+        margin-left: 40px;
+        margin-top: 24px;
+    }
+    .crasole_dicator {
+        margin-left: 8%;
+        margin-bottom: -1rem;
+    }
+    /*customer review end*/
+    /*contact start*/
+    .contact {
+        padding: 50px 0;
+    }
+    .contact_info ul li {
+        margin-top: 25px;
+        display: block;
+    }
+
+    .form{
+           margin-top: 20px;
+    }
+    .f_contact {
+    margin-top: 24px;
+    }
+    /*contact End*/
+       /*footer start*/
+    .ab_us p {
+        margin-top: 18px !important;
+        margin-right: 10px !important;
+    }
+    .f_both a {
+        font-size: 17px;
+        padding: 3px 8px 3px 8px;
+    }
+    .footer_menu_link {
+        margin-top: 18px;
+    }
+    ul .f_menu {
+        margin-bottom: 8px;
+        
+    }
+    .address_info {
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+    .address_info h2 {
+        margin-bottom: 18px;
+    }
+    .f_subscribe {
+        margin-top: 25px;
+    }
+    .footer_s {
+        margin-top: 33px;
+    }
+    .footer_form {
+        padding: 6px 0px 6px 11px;
+    }
+    .footer_btn {
+        padding: 8px 7px;
+    }
+        /*footer End*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+       /*logo*/
+    body {
+        padding-top: 78px;
+    }
+    .logo {
+        width: 65%;
+    }
+    .toggle_btn:focus {
+            --bs-navbar-toggler-focus-width: 0rem;
+            border: 1px solid #ff7214 ;
+    }
+    .toggle_icon{
+        width: 23px !important;
+        height: 30px !important;
+    }
+    .menu ul li {
+        font-size: 15px;
+    }
+    .menu ul li a {
+        padding: 5px 0px;
+        margin: 0px 7px !important;
+    }
+    .menu ul li a:hover {
+        transform: scale(1.0);
+        color: #ff7214 !important;
+        border-bottom: 2px solid transparent !important;
+        border-top: 2px solid transparent!important;
+    
+    }
+    .m_btn {
+        padding: 7px 8px;
+        margin-left: 6px;
+    }
+
+    /*bannar start*/
+    .bannar {
+        background-size: 56%;
+    }
+    .b_text {
+        padding: 20px 0;
+        margin-left: 10px;
+    }
+    .b_text h2 {
+
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .b_text p {
+       padding-right: 60px;
+       margin-bottom: 14px;
+       font-size: 15px;
+    }
+    .b_text h3 {
+        font-size: 30px;
+    }
+    .btn_slide {
+        padding: 10px 10px;
+        
+        
+    }
+    /*about us start*/
+    .about_us {
+        padding-top: 70px;
+    }
+    .about_video img {
+        height: 280px;
+    }
+    .about_text {
+        padding-top: 0px;
+    }
+    .about_text h5 {
+        font-size: 17px;
+    }
+    .about_text h2 {
+        margin-top: 13px;
+    }
+    .about_text p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .a-img {
+        margin-top: 16px;
+    }
+    .a-img img {
+        width: 20%;
+    }
+    .a-sign h4 {
+        margin: 4px 0 0 0px;
+        font-size: 18px;
+    }
+    .sign_co {
+        font-size: 15px;
+    }
+    /*about us end*/
+        /*special feature start*/
+    .s_feature {
+        padding-bottom: 15px;
+    }
+    .common_text {
+        margin-bottom: 50px;
+    }
+    .special_feature {
+        padding-top: 70px;
+    }
+    .f_text p {
+        margin: 0 18px;
+    }
+    /*special feature End*/
+    /*car rent start */
+    .car_rent {
+        padding-top: 55px;
+    }
+    .rentai_text {
+        margin-bottom: 50px;
+    }
+    .car-slider-img {
+        margin-top: 87px;
+        width: 45%;
+    }
+    .info {
+        font-size: 15px;
+    }
+    tbody tr td {
+        font-size: 14px;
+    }
+    .scroll-to {
+        padding: 4px 0px 8px 0;
+    }
+    .btn-slide {
+        padding: 7px 13px;
+    }
+    /*car rent End */
+    /*book start*/
+    .booking_car {
+        padding-top: 50px;
+    }
+    .booking_text h2 {
+        margin: 26px 81px 26px 0px !important;
+        line-height: 35px;
+        font-size: 25px;
+    }
+    .booking_text p {
+        margin-right: 12px;
+        line-height: 24px;
+        font-size: 15px;
+    }
+    .book_b {
+        padding: 9px;
+        font-size: 25px;
+    }
+    .booking_call h5 {
+        margin-bottom: 4px !important;
+        font-size: 17px;
+    }
+    .booking_call p {
+        font-size: 14px;
+    }
+    .form_head {
+        font-size: 21px;
+        margin-bottom: 30px;
+    }
+    .Form_focus {
+        padding: 8px 3px 8px 11px !important;
+    }
+    .btn-book {
+        padding: 7px 19px;
+    }
+    /*book End*/
+        /*customer review start*/
+  .customar_review{
+        padding-top: 70px;
+    }  
+    .rmain_text {
+        padding: 15px 20px 15px 34px;
+        margin-top: 22px;
+        margin-left: -10%;
+        width: 104%;
+        line-height: 24px;
+    }
+    .c-name {
+        margin-top: 30px;
+    }
+    .crasole_dicator {
+        margin-left: 48%;
+        margin-bottom: -1rem;
+    }
+    /*customer review end*/
+   
+/*contact form start*/
+    .contact_left_text h3 {
+        font-size: 21px;
+    }
+    .contact {
+        padding: 70px 0;
+    }
+    .accor_btn {
+        padding: 14px 20px 8px 20px !important;
+        font-size: 14px;
+     }
+    .accor_body {
+        padding: 7px 15px 7px 20px !important;
+    }
+    .cont_span {
+        margin-left: 10px;
+     }
+    .msg_box {
+        padding: 10px 0 70px 20px;
+    }
+        /*contact End*/
+        /*footer start*/
+    .ab_us p {
+        margin-top: 18px !important;
+        margin-right: 30px !important;
+    }
+    .f_both a {
+        font-size: 17px;
+        padding: 3px 8px 3px 8px;
+    }
+    .footer_menu_link {
+        margin-top: 18px;
+    }
+    ul .f_menu {
+        margin-bottom: 8px;
+        
+    }
+    .address_info {
+        margin-top: 25px;
+        margin-right: 33px;
+    }
+    .address_info h2 {
+        margin-bottom: 18px;
+    }
+    .f_subscribe {
+        margin-top: 25px;
+    }
+    .footer_s {
+        margin-top: 33px;
+    }
+    .footer_form {
+        padding: 6px 0px 6px 11px;
+    }
+    .footer_btn {
+        padding: 8px 7px;
+    }
+        /*footer End*/
+}
+
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+      /*logo*/
+      body {
+        padding-top: 80px;
+    }
+    .logo {
+        width: 65%;
+    }
+    .menu ul li {
+        font-size: 15px;
+    }
+    .menu ul li a {
+        margin: 0px 14px !important;
+    }
+    .m_btn {
+        padding: 8px 12px;
+    }
+
+    /*bannar start*/
+    .bannar {
+        background-size: 52%;
+    }
+    .b_text {
+        padding: 35px 0;
+        margin-left: 10px;
+    }
+    .b_text h2 {
+        font-size: 45px;
+        line-height: 56px;
+    }
+    .b_text p {
+        padding-right: 61px;
+        margin-bottom: 22px;
+    }
+    .b_text h3 {
+        font-size: 32px;
+    }
+    .btn_slide {
+        padding: 10px 16px;
+        
+        
+    }
+        /*about us start*/
+    .about_us {
+        padding-top: 80px;
+    }
+        /*about us end*/
+        /*special feature start*/
+    .common_text {
+        margin-bottom: 65px;
+    }
+    .special_feature {
+        padding-top: 80px;
+    }
+
+        /*special feature End*/
+ /*car rent start*/
+    .rentai_text {
+        margin-bottom: 65px;
+    }
+    .car_rent {
+        padding-top: 80px;
+    }
+    /*car rent start ENd*/
+    /*book start*/
+    .booking_car {
+        padding-top: 65px;
+    }
+    .booking_text h2 {
+        margin: 26px 183px 26px 0px !important;
+        line-height: 42px;
+    }
+    .booking_text p {
+        margin-right: 12px;
+        line-height: 25px;
+    }
+    .book_b {
+        padding: 9px;
+        font-size: 30px;
+    }
+    .booking_call h5 {
+        margin-bottom: 4px !important;
+        font-size: 18px;
+    }
+    /*book End*/
+    /*customer review start*/
+  .customar_review{
+        padding-top: 80px;
+    }  
+    .rmain_text {
+        padding: 15px 35px 15px 52px;
+        margin-top: 25px;
+    }
+    .c-name {
+        margin-top: 30px;
+    }
+    .crasole_dicator {
+        margin-bottom: -1rem;
+    }
+    /*customer review end*/
+    /*contact form start*/
+    .contact_left_text h3 {
+        font-size: 28px;
+    }
+    .contact {
+        padding: 80px 0;
+    }
+    .accor_btn {
+        padding: 14px 20px 8px 20px !important;
+     }
+    /*contact form End*/
+}
+
+/*/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    .bannar {
+        background-size: 53%;
+     }
+    .b_text p {
+        padding-right: 108px;
+    
+    }
+}
+
+/*/*Extra Extra large devices (Extra large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+/*logo*/
+
+body {
+        padding-top: 96px;
+    }
+.logo {
+        width: 80%;
+    }
+    /*menu*/
+    .menu ul li {
+        font-size: 19px;
+    }
+    /*menu-btn*/
+    .m_btn {
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 12px 21px;
+    }
+    /*bannar start */
+    .bannar{
+        background-image: url(../images/bannar/car2.png);
+    }
+    .b_text {
+        padding: 45px 0;
+    }
+    .b_text h5 {
+       font-size: 23px;
+     }
+    .b_text h2 {
+       font-size: 65px;
+       line-height: 80px;
+    
+    }
+    .b_text p {
+       font-size: 20px !important;
+    }
+    .b_text h3 {
+       font-size: 40px;
+   
+    }
+    .btn_slide {
+       font-size: 16px;
+       padding: 17px 27px;
+    }
+
+    /*about us start*/
+    .about_text {
+        padding-top: 10px;
+    }
+    .about_text p {
+        font-size: 19px;
+    }
+
+    /*about us end*/
+
+    /*special feature start*/
+    .f_text p {
+       margin: 0px 4px;
+       font-size: 18px;
+       line-height: 28px;
+    }
+    .f_text h2 {
+        font-size: 24px;
+    }
+    /*special feature ENd*/
+    /*luxary rental service start*/
+    .car-slider-img img {
+        width: 122% !important;
+    }
+    .tbody tr td {
+        padding: 9px 0 0 12px !important;
+        font-size: 20px;
+    }
+    .scroll-to a {
+        font-size: 18px;
+    }    
+    /*luxary rental service ENd*/
+    /*booking start*/
+    .fa_car {
+        font-size: 25px;
+    }
+    .b_logo {
+        font-size: 19px;
+    }
+    .booking_text h2 {
+        margin: 26px 282px 26px 0px !important;
+    }
+    .booking_text p {
+        line-height: 27px;
+        font-size: 18px;
+    }
+    .Form_focus {
+        font-size: 18px;
+    }
+    /*booking End*/
+    /*footer start */
+
+
+    /*footer ENd */
+}
+
